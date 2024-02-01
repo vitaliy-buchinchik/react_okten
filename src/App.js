@@ -1,6 +1,6 @@
 import './App.css';
-import SimpsonsFamily from "./components/SimpsonsFamily/SimpsonsFamily";
-import RickAndMortyWorld from "./components/RickAndMortyWorld/RickAndMortyWorld";
+import SimpsonsFamily from "./components/SimpsonsFamily";
+import RickAndMortyWorld from "./components/RickAndMortyWorld";
 
 function App() {
     return (
