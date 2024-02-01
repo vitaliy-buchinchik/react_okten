@@ -1,0 +1,11 @@
+.heading {
+    text-align: center;
+    padding: 10px;
+}
+
+.family {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+}

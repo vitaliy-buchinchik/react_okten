@@ -1,0 +1,10 @@
+.heading {
+    text-align: center;
+    padding: 15px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
