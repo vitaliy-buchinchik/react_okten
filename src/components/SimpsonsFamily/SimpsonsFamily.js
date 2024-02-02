@@ -1,4 +1,5 @@
 import React from 'react';
+
 import simpsons from "../../data/simpsons";
 import SimpsonsFamilyMember from "../SimpsonsFamilyMember";
 import styles from './SimpsonsFamily.module.css';

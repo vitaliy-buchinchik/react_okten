@@ -1,13 +1,16 @@
 import React from 'react';
+
 import s from './RickAndMortyCharacter.module.css';
 
 const RickAndMortyCharacter = ({character}) => {
+    const {name, gender, species, status, image} = character;
+
     return (
         <div className={s.wrapper}>
-            <img src={character.image} alt={character.name}/>
-            <p>Name: {character.name}, gender: {character.gender}</p>
-            <p>Species: {character.species}</p>
-            <p>Status: {character.status}</p>
+            <img src={image} alt={name}/>
+            <p>Name: {name}, gender: {gender}</p>
+            <p>Species: {species}</p>
+            <p>Status: {status}</p>
         </div>
     );
 };

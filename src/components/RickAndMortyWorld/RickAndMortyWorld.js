@@ -1,4 +1,5 @@
 import React from 'react';
+
 import rickandmorty from "../../data/rickandmorty";
 import RickAndMortyCharacter from "../RickAndMortyCharacter";
 import s from "./RickAndMortyWorld.module.css";
