@@ -1,0 +1,10 @@
+.ship_wrapper {
+    margin: 20px;
+    width: 20%;
+    text-align: center;
+}
+
+.ship_wrapper img {
+    width: 100%;
+    margin-top: 10px;
+}

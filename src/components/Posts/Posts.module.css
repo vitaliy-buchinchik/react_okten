@@ -1,0 +1,14 @@
+.heading {
+    padding: 10px;
+    text-align: center;
+}
+
+.wrapper {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.posts,
+.details {
+    width: 100%;
+}
