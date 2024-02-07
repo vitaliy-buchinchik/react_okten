@@ -1,16 +1,14 @@
 import React, {useEffect, useState} from 'react';
-import axios from "axios";
 
 import SpaceShip from "../SpaceShip";
 import s from './SpaceShipsLaunches.module.css';
+import {launchService} from "../../services/launchService";
 
 const SpaceShipsLaunches = () => {
     const [spaseShips, setSpaseShips] = useState([])
 
-    const spaceShipsURL = 'https://api.spacexdata.com/v3/launches/';
-
     useEffect(() => {
-        axios.get(spaceShipsURL).then(({data}) => setSpaseShips(data))
+        launchService.getAll().then(({data}) => setSpaseShips(data))
     }, []);
 
     return (
